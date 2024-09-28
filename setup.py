@@ -11,7 +11,7 @@ def readme():
 
 extra_requirements = []
 if sys.version_info < (3,):
-    extra_requirements.append('future>=0.14.3')
+    extra_requirements.append('future')
 
 setup(name='alarmdecoder',
     version='1.13.11',
